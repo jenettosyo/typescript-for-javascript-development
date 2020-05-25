@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jenettosyo/typescript-for-javascript-development#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "save-dev": "0.0.1-security",
     "typescript": "^3.7.5"
   },
