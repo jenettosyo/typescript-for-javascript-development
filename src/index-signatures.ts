@@ -1,0 +1,13 @@
+export {};
+
+interface Profile {
+  name: string;
+  underTwenty: boolean;
+  [index: string]: string | number | boolean;
+}
+
+let profile: Profile = { name: 'sho', underTwenty: false };
+
+profile.name = 'sho';
+profile.age = 43;
+profile.nationality = 'Japan';
